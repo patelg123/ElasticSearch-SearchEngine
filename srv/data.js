@@ -29,7 +29,7 @@ client.indices.create({
 });
 
 
-const cities = require('./data/cities.json');
+const cities = require('../data/cities.json');
 // declare an empty array called bulk
 var bulk = [];
 //loop through each city and create and push two objects into the array in each loop
